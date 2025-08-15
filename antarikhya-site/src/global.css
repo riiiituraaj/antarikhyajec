@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic reset */
+html, body, #root {
+  height: 100%;
+  background: #000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App spacing choices to mimic Apple-style */
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1.25rem;
+}
+
+/* full-bleed image helper */
+.full-bleed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* portrait grid for team */
+.team-avatar {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* minimal tiny arrow */
+.scroll-cue {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+/* override locomotive default focus */
+[data-scroll-container] *:focus {
+  outline: 2px solid rgba(255,255,255,0.12);
+}
+
+/* small accessibility: reduce motion if requested */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
