@@ -95,12 +95,12 @@ const Footer = () => {
         <div className="border-t border-border/50 mt-12 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4 md:mb-0">
-              <span>© 2024 ANTARIKHYA, The Astronomy Club of JEC. All rights reserved.</span>
+              <span>© 2025 ANTARIKHYA, The Astronomy Club of JEC. All rights reserved.</span>
             </div>
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-400" />
-              <span>by ANTARIKHYA Technical Team</span>
+              <span>by Ritu & Achum </span>
               <Star className="w-4 h-4 text-accent" />
             </div>
           </div>
