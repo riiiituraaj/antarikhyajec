@@ -100,7 +100,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-400" />
-              <span>by Ritu & Achum </span>
+              <span>by Ritu Raj Bora </span>
               <Star className="w-4 h-4 text-accent" />
             </div>
           </div>
